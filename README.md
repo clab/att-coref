@@ -19,17 +19,17 @@ The first time you clone the repository, you need to sync the `cnn/` submodule.
 
 
 Getting the data:
-
 ```
 cd att-coref/data/conll-2012
 gzip -d *
-cd ../../coref/
 ```
 
     
-# Command to run the system: 
-
-    ./att-coref
+ Command to run the system: 
+```
+cd ../../coref/
+./att-coref
+```
 
 # Update cnn instructions
 To sync the most recent version of `cnn`, you need to issue the following command:
