@@ -1,6 +1,5 @@
 # att-coref
 
-# lstm-parser
 Coreference resolution with attention mechanism
 
 # Checking out the project for the first time
