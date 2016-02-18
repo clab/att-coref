@@ -18,6 +18,39 @@
 
 #include "corpus.h"
 
+
+
+#include <boost/archive/text_oarchive.hpp>
+#include <boost/archive/text_iarchive.hpp>
+#include <boost/program_options.hpp>
+
+#include "cnn/training.h"
+#include "cnn/cnn.h"
+#include "cnn/expr.h"
+#include "cnn/nodes.h"
+#include "cnn/lstm.h"
+#include "cnn/rnn.h"
+
+
+using namespace cnn::expr;
+using namespace cnn;
+using namespace std;
+
+struct CorefBuilder{
+
+
+explicit CorefBuilder(){}
+
+
+
+
+};
+
+
+
+
+
+
 using namespace std;
 using namespace coref;
 
