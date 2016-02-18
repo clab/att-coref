@@ -52,8 +52,6 @@ explicit CorefBuilder(){}
 
 
 
-using namespace std;
-using namespace coref;
 
 int main(int argc, char** argv) {
   Corpus train("../data/conll-2012/all_train.v4_gold_conll");
