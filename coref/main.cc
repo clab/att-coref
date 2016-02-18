@@ -42,7 +42,20 @@ struct CorefBuilder{
 
 explicit CorefBuilder(){}
 
+ LookupParameters* p_w; //lookup for entity embeddings.
+ 
+ Parameters* bias;
+ Parameters* V;
 
+ 
+ Parameters* p_start_of_entity;
+ Parameters* p_end_of_entity;
+ LSTMBuilder fw_lstm; // forward embedding of the entity.
+ LSTMBuilder bw_lstm; // backwards embedding of the entity.
+
+ Parameters* p_H; // head matrix for composition function - for "clustered" entities.
+
+ 
 
 
 };
