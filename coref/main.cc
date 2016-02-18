@@ -35,6 +35,7 @@
 using namespace cnn::expr;
 using namespace cnn;
 using namespace std;
+using namespace coref;
 
 struct CorefBuilder{
 
